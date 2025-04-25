@@ -1,5 +1,6 @@
 feedparser==6.0.8
-Flask==2.0.2
-numpy==1.21.4
-scikit-learn==1.0.1
+Flask==2.3.0
+#numpy==1.21.4
+numpy==1.23.3
+scikit-learn==1.2.1
 sqlitedict==1.7.0
