@@ -7,6 +7,15 @@ I am running a live version of this code on [arxiv-sanity-lite.com](https://arxi
 
 ![Screenshot](screenshot.jpg)
 
+#### Requirements
+
+ Install via requirements:
+ Use whatever python environment you'd like, currently works with `python==3.11`.  Create and activate your environment, then install the necessary packages to run your copy of arxiv-sanity-lite.  
+
+ ```bash
+ pip install -r requirements.txt
+ ```
+
 #### To run
 
 To run this locally I usually run the following script to update the database with any new papers. I typically schedule this via a periodic cron job:
@@ -34,13 +43,6 @@ All of the database will be stored inside the `data` directory. Finally, if you'
 
 (Optional) Finally, if you'd like to send periodic emails to users about new papers, see the `send_emails.py` script. You'll also have to `pip install sendgrid`. I run this script in a daily cron job.
 
-#### Requirements
-
- Install via requirements:
-
- ```bash
- pip install -r requirements.txt
- ```
 
 #### Todos
 
